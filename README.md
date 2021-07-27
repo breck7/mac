@@ -1,6 +1,11 @@
 # Useful Mac OS X Commands
 A list of useful terminal commands for Mac OS X. Add these aliases to your ~/.bash_profile to use them.
 
+## Display bluetooth information
+```
+alias blue="system_profiler SPBluetoothDataType"
+```
+
 ## Display the password for any Wifi network you've previously connected to
 ```
 alias wifipass="security find-generic-password -g -D \"AirPort network password\" -a"
